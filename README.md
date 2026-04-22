@@ -14,5 +14,10 @@
 ## Backtracking
 |  |
 | ------- |
+| [0051-n-queens](https://github.com/wwnsok2/Algorithm_sol/tree/master/0051-n-queens) |
 | [0131-palindrome-partitioning](https://github.com/wwnsok2/Algorithm_sol/tree/master/0131-palindrome-partitioning) |
+## Array
+|  |
+| ------- |
+| [0051-n-queens](https://github.com/wwnsok2/Algorithm_sol/tree/master/0051-n-queens) |
 <!---LeetCode Topics End-->
