@@ -21,6 +21,7 @@
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/wwnsok2/Algorithm_sol/tree/master/0051-n-queens) |
+| [0136-single-number](https://github.com/wwnsok2/Algorithm_sol/tree/master/0136-single-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -28,6 +29,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/wwnsok2/Algorithm_sol/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/wwnsok2/Algorithm_sol/tree/master/0191-number-of-1-bits) |
 | [0338-counting-bits](https://github.com/wwnsok2/Algorithm_sol/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
