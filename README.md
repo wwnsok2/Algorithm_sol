@@ -11,6 +11,7 @@
 |  |
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/wwnsok2/Algorithm_sol/tree/master/0131-palindrome-partitioning) |
+| [0338-counting-bits](https://github.com/wwnsok2/Algorithm_sol/tree/master/0338-counting-bits) |
 ## Backtracking
 |  |
 | ------- |
@@ -28,4 +29,5 @@
 |  |
 | ------- |
 | [0191-number-of-1-bits](https://github.com/wwnsok2/Algorithm_sol/tree/master/0191-number-of-1-bits) |
+| [0338-counting-bits](https://github.com/wwnsok2/Algorithm_sol/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
