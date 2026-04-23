@@ -20,4 +20,12 @@
 |  |
 | ------- |
 | [0051-n-queens](https://github.com/wwnsok2/Algorithm_sol/tree/master/0051-n-queens) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0191-number-of-1-bits](https://github.com/wwnsok2/Algorithm_sol/tree/master/0191-number-of-1-bits) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0191-number-of-1-bits](https://github.com/wwnsok2/Algorithm_sol/tree/master/0191-number-of-1-bits) |
 <!---LeetCode Topics End-->
