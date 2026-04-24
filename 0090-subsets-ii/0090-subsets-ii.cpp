@@ -13,9 +13,10 @@ public:
                 if(i & (1<<j))
                 {
                     temp.push_back(nums[j]);
-                    sort(temp.begin(),temp.end());
+                    
                 }                
             }
+            sort(temp.begin(),temp.end());
             s.insert(temp);
         }
         vector<vector<int>> result(s.begin(),s.end());
