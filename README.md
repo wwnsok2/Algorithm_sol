@@ -15,6 +15,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/wwnsok2/Algorithm_sol/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/wwnsok2/Algorithm_sol/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/wwnsok2/Algorithm_sol/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/wwnsok2/Algorithm_sol/tree/master/0090-subsets-ii) |
@@ -22,6 +23,7 @@
 ## Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/wwnsok2/Algorithm_sol/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/wwnsok2/Algorithm_sol/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/wwnsok2/Algorithm_sol/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/wwnsok2/Algorithm_sol/tree/master/0090-subsets-ii) |
