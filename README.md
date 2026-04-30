@@ -34,6 +34,7 @@
 | [0136-single-number](https://github.com/wwnsok2/Algorithm_sol/tree/master/0136-single-number) |
 | [0322-coin-change](https://github.com/wwnsok2/Algorithm_sol/tree/master/0322-coin-change) |
 | [0332-reconstruct-itinerary](https://github.com/wwnsok2/Algorithm_sol/tree/master/0332-reconstruct-itinerary) |
+| [0875-koko-eating-bananas](https://github.com/wwnsok2/Algorithm_sol/tree/master/0875-koko-eating-bananas) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -87,4 +88,8 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/wwnsok2/Algorithm_sol/tree/master/0128-longest-consecutive-sequence) |
+## Binary Search
+|  |
+| ------- |
+| [0875-koko-eating-bananas](https://github.com/wwnsok2/Algorithm_sol/tree/master/0875-koko-eating-bananas) |
 <!---LeetCode Topics End-->
