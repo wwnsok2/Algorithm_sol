@@ -35,6 +35,7 @@
 | [0322-coin-change](https://github.com/wwnsok2/Algorithm_sol/tree/master/0322-coin-change) |
 | [0332-reconstruct-itinerary](https://github.com/wwnsok2/Algorithm_sol/tree/master/0332-reconstruct-itinerary) |
 | [0875-koko-eating-bananas](https://github.com/wwnsok2/Algorithm_sol/tree/master/0875-koko-eating-bananas) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/wwnsok2/Algorithm_sol/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -92,4 +93,5 @@
 |  |
 | ------- |
 | [0875-koko-eating-bananas](https://github.com/wwnsok2/Algorithm_sol/tree/master/0875-koko-eating-bananas) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/wwnsok2/Algorithm_sol/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 <!---LeetCode Topics End-->
