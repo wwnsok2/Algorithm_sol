@@ -30,6 +30,7 @@
 | [0051-n-queens](https://github.com/wwnsok2/Algorithm_sol/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/wwnsok2/Algorithm_sol/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/wwnsok2/Algorithm_sol/tree/master/0090-subsets-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/wwnsok2/Algorithm_sol/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/wwnsok2/Algorithm_sol/tree/master/0136-single-number) |
 | [0322-coin-change](https://github.com/wwnsok2/Algorithm_sol/tree/master/0322-coin-change) |
 | [0332-reconstruct-itinerary](https://github.com/wwnsok2/Algorithm_sol/tree/master/0332-reconstruct-itinerary) |
@@ -78,4 +79,12 @@
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/wwnsok2/Algorithm_sol/tree/master/0332-reconstruct-itinerary) |
+## Hash Table
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/wwnsok2/Algorithm_sol/tree/master/0128-longest-consecutive-sequence) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/wwnsok2/Algorithm_sol/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
