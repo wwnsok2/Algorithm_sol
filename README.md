@@ -33,6 +33,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/wwnsok2/Algorithm_sol/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/wwnsok2/Algorithm_sol/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/wwnsok2/Algorithm_sol/tree/master/0136-single-number) |
+| [0289-game-of-life](https://github.com/wwnsok2/Algorithm_sol/tree/master/0289-game-of-life) |
 | [0322-coin-change](https://github.com/wwnsok2/Algorithm_sol/tree/master/0322-coin-change) |
 | [0332-reconstruct-itinerary](https://github.com/wwnsok2/Algorithm_sol/tree/master/0332-reconstruct-itinerary) |
 | [0875-koko-eating-bananas](https://github.com/wwnsok2/Algorithm_sol/tree/master/0875-koko-eating-bananas) |
@@ -108,4 +109,9 @@
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/wwnsok2/Algorithm_sol/tree/master/0130-surrounded-regions) |
+| [0289-game-of-life](https://github.com/wwnsok2/Algorithm_sol/tree/master/0289-game-of-life) |
+## Simulation
+|  |
+| ------- |
+| [0289-game-of-life](https://github.com/wwnsok2/Algorithm_sol/tree/master/0289-game-of-life) |
 <!---LeetCode Topics End-->
