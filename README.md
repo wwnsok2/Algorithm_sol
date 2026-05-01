@@ -36,6 +36,7 @@
 | [0332-reconstruct-itinerary](https://github.com/wwnsok2/Algorithm_sol/tree/master/0332-reconstruct-itinerary) |
 | [0875-koko-eating-bananas](https://github.com/wwnsok2/Algorithm_sol/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/wwnsok2/Algorithm_sol/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/wwnsok2/Algorithm_sol/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -94,4 +95,9 @@
 | ------- |
 | [0875-koko-eating-bananas](https://github.com/wwnsok2/Algorithm_sol/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/wwnsok2/Algorithm_sol/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/wwnsok2/Algorithm_sol/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
+## Greedy
+|  |
+| ------- |
+| [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/wwnsok2/Algorithm_sol/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 <!---LeetCode Topics End-->
