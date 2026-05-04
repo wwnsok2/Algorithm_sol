@@ -1,62 +1,76 @@
 #include <vector>
+#include <algorithm>
 #include <queue>
-#include <utility>
-
 using namespace std;
 
-int dx[4]= {0,0,-1,1};
-int dy[4]= {-1,1,0,0};
+int dy[4] = {0,0,-1,1};
+int dx[4] = {-1,1,0,0};
+int m;
+int n;
+vector<vector<bool>> check;
+int ans = 1;
 
-int isVal(int y, int x, vector<vector<int>>& maps)
+bool isValid(int y, int x)
 {
-    if((y<0) || (y>=maps.size()) || (x<0) || (x>=maps[0].size()))
+    if(y<0 || y>=m || x<0 || x>=n)
     {
-        return 0;
+        return false;
     }
     else
     {
-        return 1;
+        return true;
     }
 }
 
-
-int BFS(int y, int x, vector<vector<int>>& maps)
+int BFS(int y, int x, queue<pair<int,int>> q, vector<vector<int>>& maps)
 {
-    int cnt = 0;
-    queue<pair<int,int>> q;
+    check[y][x] = true;
     q.push(make_pair(y,x));
     
     while(!q.empty())
     {
-        pair<int,int> now = q.front();
-        
-        if((now.first==maps.size()-1) && (now.second==maps[0].size()-1))
+        int size = q.size();
+        for(int k=0;k<size;k++)
         {
-            return maps[now.first][now.second];
-        }
-        
-        q.pop();
-        
-        for(int i=0;i<4;i++)
-        {
-            int y_n = now.first + dy[i];
-            int x_n = now.second + dx[i];
-            if((isVal(y_n,x_n,maps) == 1) && (maps[y_n][x_n] == 1))
+            pair<int,int> now = q.front();
+            q.pop();
+            
+            if((now.first==m-1) && (now.second==n-1))
             {
-                q.push(make_pair(y_n,x_n));
-                maps[y_n][x_n] = maps[now.first][now.second] + 1;
+                return ans;
             }
+            
+            for(int i=0;i<4;i++)
+            {
+                int y_n = now.first + dy[i];
+                int x_n = now.second + dx[i];
+                
+                if(isValid(y_n,x_n) && (check[y_n][x_n]==false) && (maps[y_n][x_n] == 1))
+                {
+                    q.push(make_pair(y_n,x_n));
+                    check[y_n][x_n] = true;
+                }
+            }            
         }
+        ans++;
     }
-               
+    
     return -1;
+    
 }
+
 
 int solution(vector<vector<int> > maps)
 {
-    int answer = 0;
+    m = maps.size();
+    n = maps[0].size();
+    check.assign(m,vector<bool>(n,false));
+    queue<pair<int,int>> q;
     
-    answer = BFS(0,0,maps);
+    if(maps[m-1][n-1] == 0)
+    {
+        return -1;
+    }
     
-    return answer;
+    return BFS(0,0,q,maps);
 }
