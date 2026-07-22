@@ -1,27 +1,15 @@
 class Solution {
 public:
-    int dy[4] = {0,0,-1,1};
-    int dx[4] = {-1,1,0,0};
-    int num_fresh = 0;
-
     int m;
     int n;
+    int fresh_num = 0;
+    int ans = 0;
+
+    int dx[4] = {0,0,1,-1};
+    int dy[4] = {1,-1,0,0};
 
 
-    bool isValid(int y, int x)
-    {
-        if(x<0 || x>= n || y<0 || y>=m)
-        {
-            return false;
-        }
-        else
-        {
-            return true;
-        }
-    }
-    
     int orangesRotting(vector<vector<int>>& grid) {
-        int ans = 0;
         m = grid.size();
         n = grid[0].size();
         queue<pair<int,int>> q;
@@ -32,52 +20,63 @@ public:
             {
                 if(grid[i][j] == 1)
                 {
-                    num_fresh+=1;
+                    fresh_num++;
                 }
                 else if(grid[i][j] == 2)
                 {
-                    q.push(make_pair(i,j));
+                    q.push({i,j});
                 }
             }
         }
+        BFS(q,grid);
 
-        if(num_fresh == 0)
-        {
-            return 0;
-        }
-
-        while(!q.empty())
-        {
-
-            int size = q.size();
-            for(int i=0;i<size;i++)
-            {
-                pair<int,int> now = q.front();
-                q.pop();
-                
-                for(int j=0;j<4;j++)
-                {
-                    int y_n = now.first+dy[j];
-                    int x_n = now.second+dx[j];
-                    if(((isValid(y_n,x_n)==true)) && (grid[y_n][x_n]==1))
-                    {
-                        grid[y_n][x_n] = 2;
-                        q.push(make_pair(y_n,x_n));
-                        num_fresh-=1;
-
-                    }
-                }
-            }
-            ans++;
-            
-        }
-
-        if(num_fresh != 0)
+        if(fresh_num != 0)
         {
             return -1;
         }
 
+        return ans;
+        
 
-        return ans-1;
+    }
+
+    int isValid(int y, int x)
+    {
+        if(y<0 || y>=m || x<0 || x>=n)
+        {
+            return 0;
+        }
+
+        return 1;
+    }
+
+    void BFS(queue<pair<int,int>>& q, vector<vector<int>>& grid)
+    {
+        while(!q.empty() && fresh_num>0)
+        {
+            int q_size = q.size();
+
+            for(int i=0;i<q_size;i++)
+            {
+                pair<int,int> now = q.front();
+                q.pop();
+
+                for(int j=0;j<4;j++)
+                {
+                    int y_n = now.first + dy[j];
+                    int x_n = now.second + dx[j];
+
+                    if(isValid(y_n, x_n) && grid[y_n][x_n]==1)
+                    {
+                        q.push({y_n,x_n});
+                        grid[y_n][x_n] = 2;
+                        fresh_num--;
+                    }
+                }
+            }
+
+            ans++;
+
+        }
     }
 };
