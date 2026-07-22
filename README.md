@@ -56,10 +56,12 @@
 ## Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/wwnsok2/Algorithm_sol/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/wwnsok2/Algorithm_sol/tree/master/0113-path-sum-ii) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/wwnsok2/Algorithm_sol/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/wwnsok2/Algorithm_sol/tree/master/0113-path-sum-ii) |
 | [0130-surrounded-regions](https://github.com/wwnsok2/Algorithm_sol/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/wwnsok2/Algorithm_sol/tree/master/0200-number-of-islands) |
@@ -67,10 +69,12 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/wwnsok2/Algorithm_sol/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/wwnsok2/Algorithm_sol/tree/master/0113-path-sum-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/wwnsok2/Algorithm_sol/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0130-surrounded-regions](https://github.com/wwnsok2/Algorithm_sol/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/wwnsok2/Algorithm_sol/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/wwnsok2/Algorithm_sol/tree/master/0322-coin-change) |
