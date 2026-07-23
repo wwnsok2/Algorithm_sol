@@ -11,6 +11,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/wwnsok2/Algorithm_sol/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/wwnsok2/Algorithm_sol/tree/master/0070-climbing-stairs) |
 | [0131-palindrome-partitioning](https://github.com/wwnsok2/Algorithm_sol/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/wwnsok2/Algorithm_sol/tree/master/0198-house-robber) |
@@ -159,9 +160,14 @@
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/wwnsok2/Algorithm_sol/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/wwnsok2/Algorithm_sol/tree/master/0070-climbing-stairs) |
 ## Memoization
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/wwnsok2/Algorithm_sol/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/wwnsok2/Algorithm_sol/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
