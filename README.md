@@ -11,6 +11,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/wwnsok2/Algorithm_sol/tree/master/0070-climbing-stairs) |
 | [0131-palindrome-partitioning](https://github.com/wwnsok2/Algorithm_sol/tree/master/0131-palindrome-partitioning) |
 | [0322-coin-change](https://github.com/wwnsok2/Algorithm_sol/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/wwnsok2/Algorithm_sol/tree/master/0338-counting-bits) |
@@ -153,4 +154,12 @@
 |  |
 | ------- |
 | [0289-game-of-life](https://github.com/wwnsok2/Algorithm_sol/tree/master/0289-game-of-life) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/wwnsok2/Algorithm_sol/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/wwnsok2/Algorithm_sol/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
