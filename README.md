@@ -14,6 +14,7 @@
 | [0131-palindrome-partitioning](https://github.com/wwnsok2/Algorithm_sol/tree/master/0131-palindrome-partitioning) |
 | [0322-coin-change](https://github.com/wwnsok2/Algorithm_sol/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/wwnsok2/Algorithm_sol/tree/master/0338-counting-bits) |
+| [0542-01-matrix](https://github.com/wwnsok2/Algorithm_sol/tree/master/0542-01-matrix) |
 ## Backtracking
 |  |
 | ------- |
@@ -37,6 +38,7 @@
 | [0289-game-of-life](https://github.com/wwnsok2/Algorithm_sol/tree/master/0289-game-of-life) |
 | [0322-coin-change](https://github.com/wwnsok2/Algorithm_sol/tree/master/0322-coin-change) |
 | [0332-reconstruct-itinerary](https://github.com/wwnsok2/Algorithm_sol/tree/master/0332-reconstruct-itinerary) |
+| [0542-01-matrix](https://github.com/wwnsok2/Algorithm_sol/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/wwnsok2/Algorithm_sol/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/wwnsok2/Algorithm_sol/tree/master/0733-flood-fill) |
 | [0875-koko-eating-bananas](https://github.com/wwnsok2/Algorithm_sol/tree/master/0875-koko-eating-bananas) |
@@ -91,6 +93,7 @@
 | [0200-number-of-islands](https://github.com/wwnsok2/Algorithm_sol/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/wwnsok2/Algorithm_sol/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/wwnsok2/Algorithm_sol/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/wwnsok2/Algorithm_sol/tree/master/0542-01-matrix) |
 | [0617-merge-two-binary-trees](https://github.com/wwnsok2/Algorithm_sol/tree/master/0617-merge-two-binary-trees) |
 | [0695-max-area-of-island](https://github.com/wwnsok2/Algorithm_sol/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/wwnsok2/Algorithm_sol/tree/master/0733-flood-fill) |
@@ -141,6 +144,7 @@
 | [0130-surrounded-regions](https://github.com/wwnsok2/Algorithm_sol/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/wwnsok2/Algorithm_sol/tree/master/0200-number-of-islands) |
 | [0289-game-of-life](https://github.com/wwnsok2/Algorithm_sol/tree/master/0289-game-of-life) |
+| [0542-01-matrix](https://github.com/wwnsok2/Algorithm_sol/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/wwnsok2/Algorithm_sol/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/wwnsok2/Algorithm_sol/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/wwnsok2/Algorithm_sol/tree/master/0994-rotting-oranges) |
