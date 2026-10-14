@@ -8,7 +8,6 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
     int answer = 1;
     
     int num = truck_weights.size();
-    int temp = 0;
     queue<int> q;
     
     for(int i=0;i<bridge_length-1;i++)
