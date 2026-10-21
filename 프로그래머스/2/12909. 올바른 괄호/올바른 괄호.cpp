@@ -1,49 +1,39 @@
-#include<string>
+#include <string>
 #include <iostream>
+#include <queue>
 
 using namespace std;
 
 bool solution(string s)
 {
-    bool answer = true;
-    string stack;
+    int n = s.size();
+    queue<char> q;
     
-    int len = s.size();
-    
-    if(len%2 != 0)
+    if(s[0] == ')' || s[n-1] == '(')
     {
         return false;
     }
     
-    if(s[0] == ')')
-    {
-        return false;
-    }
-    else if(s[len-1] == '(')
-    {
-        return false;
-    }
-    
-    for(int i=0;i<len;i++)
+    for(int i=0;i<n;i++)
     {
         if(s[i] == '(')
         {
-            stack += '(';
+            q.push(s[i]);
         }
         else if(s[i] == ')')
         {
-            if(!stack.empty())
-            {
-                stack.pop_back();
-            }
-            else
+            if(q.empty())
             {
                 return false;
             }
+            q.pop();
         }
     }
     
+    if(!q.empty())
+    {
+        return false;
+    }
     
-
-    return stack.empty();
+    return true;
 }
