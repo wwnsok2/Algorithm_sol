@@ -1,36 +1,37 @@
 #include <string>
 #include <vector>
-#include <algorithm>
+#include <climits>
 
 using namespace std;
 
 string solution(string s) {
     string answer = "";
-    int len = s.size();
-    
-    vector<int> v;
+    int n = s.size();
+    int temp_num = 0;
     string temp = "";
+    int min = INT_MAX;
+    int max = INT_MIN;
     
-    for(int i=0;i<len;i++)
+    for(int i=0;i<n;i++)
     {
-        if(s[i] != ' ')
+        temp += s[i];
+        if(s[i] == ' ' || i == n-1)
         {
-            temp += s[i];
-        }
-        else
-        {
-            v.push_back(stoi(temp));
+            temp_num = stoi(temp);
+            if(temp_num >= max)
+            {
+                max = temp_num;
+            }
+            if(temp_num <= min)
+            {
+                min = temp_num;
+            }
+            
+            temp_num = 0;
             temp = "";
         }
     }
-    v.push_back(stoi(temp));
     
-    sort(v.begin(), v.end());
-    
-    answer += to_string(v[0]);
-    answer += ' ';
-    answer += to_string(v[v.size() - 1]);
-    
-    
+    answer = to_string(min) + ' ' + to_string(max);
     return answer;
 }
