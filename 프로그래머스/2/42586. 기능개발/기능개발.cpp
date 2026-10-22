@@ -6,48 +6,46 @@ using namespace std;
 
 vector<int> solution(vector<int> progresses, vector<int> speeds) {
     vector<int> answer;
-    
     int n = progresses.size();
-    
-    vector<int> day(n,0);
-    
+    queue<int> q;
+
+   
     for(int i=0;i<n;i++)
     {
-        int temp = 100 - progresses[i];
-        int req;
-        if(temp%speeds[i] != 0)
+        int remain = 100 - progresses[i];
+       
+        if(remain%speeds[i] != 0)
         {
-            day[i] = temp/speeds[i] + 1;
+            q.push(remain/speeds[i] + 1);
         }
         else
         {
-            day[i] = temp/speeds[i];
+            q.push(remain/speeds[i]);
         }
     }
     
-    queue<int> q;
+    int now = q.front();
+    int q_size = q.size();
+    int cnt = 1;
+    q.pop();
     
-    for(int i=0;i<n;i++)
+    for(int i=0;i<q_size;i++)
     {
-        q.push(day[i]);
-    }
-    
-    while(!q.empty())
-    {
-        int cnt = 1;
-        int now = q.front();
-        q.pop();
-        
-        
-        while(!q.empty() && now >= q.front())
+        int next = q.front();
+        if(now < next || q.empty())
+        {
+            q.pop();
+            answer.push_back(cnt);
+            cnt = 1;
+            now = next;
+        }
+        else if(now >= next)
         {
             q.pop();
             cnt++;
         }
-        
-        answer.push_back(cnt);
     }
-
-    
+   
+   
     return answer;
 }
